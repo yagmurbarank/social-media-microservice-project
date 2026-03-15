@@ -11,12 +11,12 @@ import org.yagmur.dto.response.LoginResponseDto;
 import org.yagmur.entity.Auth;
 import org.yagmur.service.AuthService;
 
-import static org.yagmur.config.RestApi.*;
+import static org.yagmur.config.LoginApiEndpoints.*;
 
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping(AUTHSERVICE)
+@RequestMapping(AUTH_SERVICE)
 public class AuthController {
     private  final AuthService authService;
 

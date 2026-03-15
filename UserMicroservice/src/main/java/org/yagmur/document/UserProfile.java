@@ -1,0 +1,27 @@
+package org.yagmur.document;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Document
+public class UserProfile {
+    String id;
+    Long authId;
+    String userName;
+    String name;
+    String surName;
+    String email;
+    String phone;
+    String avatar;
+    String instagram;
+    String twitter;
+    Boolean isActive;
+    Long createAt;
+}
