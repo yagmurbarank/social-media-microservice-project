@@ -16,3 +16,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
+
+service:
+  user-profile:
+    url: http://localhost:9091/dev/v1/user-profile
