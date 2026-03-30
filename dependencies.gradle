@@ -13,7 +13,7 @@ ext {
             springCloudStarterOpenFeign     : "org.springframework.cloud:spring-cloud-starter-openfeign:${versions.springCloud}",
             springCloudConfig               : "org.springframework.cloud:spring-cloud-starter-config:${versions.springCloud}",
             springCloudConfigServer         : "org.springframework.cloud:spring-cloud-config-server:${versions.springCloud}",
-            springCloudConfigClient         : "org.springframework.cloud:spring-cloud-cofig-client:${versions.springCloud}",
+            springCloudConfigClient         : "org.springframework.cloud:spring-cloud-config-client:${versions.springCloud}",
             springBootDataMongo             : "org.springframework.boot:spring-boot-starter-data-mongodb:${versions.springBoot}",
             postgreSQL                      : "org.postgresql:postgresql:${versions.postgreSQL}",
             lombok                          : "org.projectlombok:lombok:${versions.lombok}",
