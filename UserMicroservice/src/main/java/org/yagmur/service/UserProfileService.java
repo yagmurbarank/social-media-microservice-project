@@ -1,12 +1,11 @@
 package org.yagmur.service;
 
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.yagmur.document.UserProfile;
-import org.yagmur.dto.reques.CreateUserRequestDto;
+import org.yagmur.dto.request.CreateUserRequestDto;
 import org.yagmur.repository.UserProfileRepository;
 
 import java.util.List;

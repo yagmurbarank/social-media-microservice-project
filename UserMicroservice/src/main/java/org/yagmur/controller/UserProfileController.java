@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.yagmur.document.UserProfile;
-import org.yagmur.dto.reques.CreateUserRequestDto;
+import org.yagmur.dto.request.CreateUserRequestDto;
 import org.yagmur.service.UserProfileService;
 
 import static org.yagmur.config.UserApiEndpoints.*;

@@ -1,4 +1,4 @@
-package org.yagmur.dto.reques;
+package org.yagmur.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
